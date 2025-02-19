@@ -1,0 +1,192 @@
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+header .cta-button {
+    background-color: #FF6B6B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Герой-баннер */
+.hero {
+    background-image: url('washing-machines.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    background-color: #FF6B6B;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Блок "Наши услуги" */
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.services .service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+}
+
+.services .service-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.services .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services .service-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Блок "Почему мы?" */
+.why-us {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.why-us .benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-us .benefit-item {
+    width: 20%;
+}
+
+.why-us .benefit-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.why-us .benefit-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.why-us .benefit-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .contact-info {
+    margin-bottom: 20px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+}
+
+footer .social-links a:hover {
+    color: #007BFF;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
