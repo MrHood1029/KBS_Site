@@ -1,4 +1,3 @@
-from django.template.context_processors import request
 from flask import Flask, render_template
 
 app = Flask(__name__)
